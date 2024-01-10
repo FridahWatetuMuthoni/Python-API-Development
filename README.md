@@ -44,11 +44,10 @@ These methods provide a way for clients to interact with resources on the web se
 
 ## APIS HTTP METHODS
 
-CRUD => CREATE, READ UPDATE, DELETE
-|CRUD METHOD | HTTP METHOD| URL ROUTE | FASTAPI ROUTE
-|-----------------------------------------------------------|
-|Create | POST | /posts | @app.post("/posts) |
-|Read | GET | /posts | @app.get("/posts") |
-|Read | GET | /posts/:id | @app.get("/posts/{id}) |
-|Update | PUT/PATCH | /posts/:id | @app.put("/posts/{id}) |
-|Delete | DELETE | /posts/:id | @app.delete("/posts/{id})|
+| CRUD METHOD | HTTP METHOD | URL ROUTE  | FASTAPI ROUTE             |
+| ----------- | ----------- | ---------- | ------------------------- |
+| Create      | POST        | /posts     | @app.post("/posts)        |
+| Read        | GET         | /posts     | @app.get("/posts")        |
+| Read        | GET         | /posts/:id | @app.get("/posts/{id})    |
+| Update      | PUT/PATCH   | /posts/:id | @app.put("/posts/{id})    |
+| Delete      | DELETE      | /posts/:id | @app.delete("/posts/{id}) |
