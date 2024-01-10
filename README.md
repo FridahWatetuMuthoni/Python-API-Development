@@ -15,6 +15,7 @@
 ## How to run the uvicorn server
 
 > > > uvicorn the_entry_file:the_name_of_the_fastapi_instance --reload(reloads your server when the code changes)
+
 > > > uvicorn main:app --reload
 
 ## HTTP METHODS
@@ -44,7 +45,7 @@ These methods provide a way for clients to interact with resources on the web se
 ## APIS HTTP METHODS
 
 CRUD => CREATE, READ UPDATE, DELETE
-
+|CRUD METHOD | HTTP METHOD| URL ROUTE | FASTAPI ROUTE
 |-----------------------------------------------------------|
 |Create | POST | /posts | @app.post("/posts) |
 |Read | GET | /posts | @app.get("/posts") |
