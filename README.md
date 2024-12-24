@@ -1,22 +1,4 @@
-# API DEVELOPMENT IN PYTHON USING FASTAPI
-
-## How to create a virtual environment
-
-> > > python -m venv venv
-
-## Installing fastapi
-
-> > > pip install fastapi[all]
-
-## Putting all the requirements to a text file
-
-> > > pip freeze > requirements.txt
-
-## How to run the uvicorn server
-
-> > > uvicorn the_entry_file:the_name_of_the_fastapi_instance --reload(reloads your server when the code changes)
-
-> > > uvicorn main:app --reload
+# HTTP METHODS
 
 ## HTTP METHODS
 
